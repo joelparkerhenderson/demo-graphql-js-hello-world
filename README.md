@@ -41,21 +41,12 @@ The file does two things:
 
   * Import the rest of our application.
 
+Babel solves this error message:
 
-### Troubleshooting:
-
-Symptom:
-
-    .../demo_graphql_js_hello_world/demo.js:1
-    (function (exports, require, module, __filename, __dirname) { import {
-                                                                     ^
-    SyntaxError: Unexpected token {
-
-Treatment:
-
-  * The error message is showing that node does not understand the "import" syntax.
-
-  * Add babel, as described above.
+```sh
+(function (exports, require, module, __filename, __dirname) { import {
+SyntaxError: Unexpected token
+```
 
 
 ## Run
