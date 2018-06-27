@@ -16,7 +16,7 @@ $ npm init
 
 ## demo.js
 
-Create a file such as <demo.js> (see the file in this repo).
+Create a file such as [demo.js](demo.js) (see the file in this repo).
 
 The demo file will do two things:
 
@@ -33,7 +33,7 @@ As of this writing, Node.js doesn't support ES6 imports yet. However, you can us
 $ npm install babel-register babel-preset-env --save-dev
 ```
 
-Create a file such as <start.js> (see the file in this repo).
+Create a file such as [start.js](start.js) (see the file in this repo).
 
 The file does two things:
 
